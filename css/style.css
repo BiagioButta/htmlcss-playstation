@@ -1,0 +1,122 @@
+/* utility ***************/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bb-black: #1F1F1F;
+    --bb-darkblue: #161C3B;
+    --bb-blue: #0044a2;
+    --bb-lightblue: #2D64E6;
+    --bb-white: white;
+    --bb-red: red;
+}
+
+.bg-black{
+    background-color: var(--bb-black);
+}
+
+.bg-red{
+    background-color: var(--bb-red);
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+[class*="col-"]{
+    flex: 0 0 auto;
+}
+
+.debug{
+    border: 1px solid black;
+    min-height: 50px;
+}
+
+/* nav bar  **************/
+nav :nth-child(2){
+    height: 5rem;
+    line-height: 5rem;
+}
+
+nav img{
+    width: 20%;
+}
+
+nav .btn{
+    color: var(--bb-black);
+    background-color: var(--bb-white);
+}
+
+/* hero ***********************/
+
+.hero{
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+    display: block;
+}
+
+.hero img{
+    width: 50%;
+}
+
+.m-top-12{
+    margin-top: 12rem;
+}
+
+/* under hero  **********************/
+
+.under-hero img{
+    width: 100%;
+}
+
+/* section consoleps5 ****************/
+
+.m-top-8{
+    margin-top: 8rem;
+}
+
+.consolps5 img{
+    width: 100%;
+}
+
+/* section second hero  ***************/
+
+.second-hero{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+    display: block;
+}
+
+.second-hero img{
+    width: 50%;
+}
+
+/* section new released ******************/
+
+.new-released img{
+    width: 100%;
+}
+
+/* section ps4  *********************/
+
+.ps4 i{
+    font-size: 0.8rem;
+}
+
+.ps4 img{
+    width: 100%;
+}
+
+/* ps-plus  ****************/
+.ps-plus img{
+    width: 50%;
+}
