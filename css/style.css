@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    min-width: 230px;
+}
+
 :root {
     --bb-black: #1F1F1F;
     --bb-darkblue: #161C3B;
@@ -13,6 +17,8 @@
     --bb-lightblue: #2D64E6;
     --bb-white: white;
     --bb-red: red;
+    --bb-grey: rgb(189, 188, 188);
+    --bb-lightgrey: rgb(224, 219, 219);
 }
 
 .bg-black{
@@ -21,6 +27,22 @@
 
 .bg-red{
     background-color: var(--bb-red);
+}
+
+.bg-grey{
+    background-color: var(--bb-grey);
+}
+
+.bg-lightgrey{
+    background-color: var(--bb-lightgrey);
+}
+
+.bg-darkblue{
+    background-color: var(--bb-darkblue);
+}
+
+.bg-lightblue{
+    background-color: var(--bb-lightblue);
 }
 
 a{
@@ -32,16 +54,12 @@ a{
     flex: 0 0 auto;
 }
 
-.debug{
+/* .debug{
     border: 1px solid black;
     min-height: 50px;
-}
+} */
 
 /* nav bar  **************/
-nav :nth-child(2){
-    height: 5rem;
-    line-height: 5rem;
-}
 
 nav img{
     width: 20%;
@@ -116,7 +134,44 @@ nav .btn{
     width: 100%;
 }
 
-/* ps-plus  ****************/
-.ps-plus img{
-    width: 50%;
+/* ps-plus e ps-now  ****************/
+.ps-plus .ps-now, img{
+    width: 60%;
+}
+
+.m-bot-6{
+    margin-bottom: 6rem;
+}
+
+/* section sales  *************************/
+
+.sales img{
+    width: 100%;
+}
+
+/* section social  *****************/
+
+.social img{
+    width: 100%;
+}
+
+/* footer  ******************/
+
+footer img{
+    width: 30%;
+}
+
+summary{
+    list-style: none;
+}
+
+.bb-border{
+    border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+    width: 95%;
+    margin: auto;
+    padding: 0.5rem 0;
+}
+
+footer a{
+    color: var(--bb-white);
 }
